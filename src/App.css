@@ -103,23 +103,25 @@ button:hover {
   object-fit: cover;
 }
 
-.image:nth-child(2n) {
-  grid-column-end: span 2;
-}
+@media only screen and (min-width: 1824px) {
+  .image:nth-child(2n) {
+    grid-column-end: span 2;
+  }
 
-.image:nth-child(4n),
-.image:nth-child(6n) {
-  grid-column-end: span 1;
-}
+  .image:nth-child(4n),
+  .image:nth-child(6n) {
+    grid-column-end: span 1;
+  }
 
-.image:nth-child(8n) {
-  grid-column-end: span 2;
-}
+  .image:nth-child(8n) {
+    grid-column-end: span 2;
+  }
 
-.image:nth-child(16n) {
-  grid-column-end: span 1;
-}
+  .image:nth-child(16n) {
+    grid-column-end: span 1;
+  }
 
-.image:nth-child(69n) {
-  grid-column-end: span 2;
+  .image:nth-child(69n) {
+    grid-column-end: span 2;
+  }
 }
